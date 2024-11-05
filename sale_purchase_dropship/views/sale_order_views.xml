@@ -6,7 +6,7 @@
         <field name="inherit_id" ref="sale.view_order_form"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='payment_term_id']" position="after">
-                <field name="partner_purchase_order_id" readonly="1" groups="purchase.group_purchase_user"
+                <field name="sale_linked_purchase_order_id" readonly="1" groups="purchase.group_purchase_user"
                        invisible="purchase_order_count == 0"/>
             </xpath>
         </field>

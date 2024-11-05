@@ -2,7 +2,7 @@
 
 {
     "name": "Sale Purchase Dropship",
-    "version": "17.0.1.0.1",
+    "version": "17.0.1.0.0",
     "category": "Sale / Purchase",
     "summary": "Manage the dropship functionality for the sale / purchase",
     "description": """
